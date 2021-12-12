@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Clock Manager",
+    "slug": "v101",
+    "privacy": "public",
+    "platforms": [
+      "android",
+      "ios",
+      "web"
+    ],
+    "version": "4.1.285",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon2.png",
+    "scheme": "myapp",
+    "splash": {
+      "image": "./assets/EMT.png",
+      "backgroundColor": "#FFF",
+      "resizeMode": "contain"
+    },
+    "updates": {
+      "checkAutomatically": "ON_ERROR_RECOVERY"
+    },
+    "assetBundlePatterns": [
+      "assets/*"
+    ],  
+    "ios": {
+      "bundleIdentifier": "com.Merena.ClockManager",
+      "buildNumber": "1.1.25",
+      "config": { "googleMapsApiKey":"AIzaSyCIwWju_nq7isCF40WdVXtjXdDj_T5QqaI" }
+      
+      
+    },
+    "android": {
+      "package": "com.Merena.ClockManager",
+      "versionCode": 1,
+      "googleServicesFile": "./FireBase/google-services.json",
+      "useNextNotificationsApi": true,
+      "config": {"googleMaps": { "apiKey": "AIzaSyB5q9TWlE5Zs_gWtaILqYF30xsObTz15CQ"}}
+    }
+  },
+  "updates": {
+    "checkAutomatically": "ON_ERROR_RECOVERY"
+  }
+}
